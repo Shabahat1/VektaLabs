@@ -31,7 +31,7 @@ export default function Navbar() {
     >
       <div className="max-w-5xl mx-auto px-6 md:px-8 lg:px-12 flex items-center justify-between h-16">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2.5">
+        <a href="/" className="flex items-center gap-2.5">
           <svg width="28" height="28" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8 26 Q50 4 92 26 L50 90 Z" fill="#AAEE88" />
           </svg>
