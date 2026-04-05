@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
             {/* Column 1 — Brand */}
             <div>
-              <a href="#" className="flex items-center gap-2.5 mb-4">
+              <a href="/" className="flex items-center gap-2.5 mb-4">
                 <svg width="24" height="24" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M8 26 Q50 4 92 26 L50 90 Z" fill="#AAEE88" />
                 </svg>
