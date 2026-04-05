@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import TrustBar from './components/TrustBar'
+import WhatWeDo from './components/WhatWeDo'
+import HowItWorks from './components/HowItWorks'
+import WhyVekta from './components/WhyVekta'
+import FinalCTA from './components/FinalCTA'
+import Footer from './components/Footer'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-ink min-h-screen">
+      <Navbar />
+      <main>
+        <Hero />
+        <TrustBar />
+        <WhatWeDo />
+        <HowItWorks />
+        <WhyVekta />
+        <FinalCTA />
+      </main>
+      <Footer />
     </div>
-  );
+  )
 }
-
-export default App;
